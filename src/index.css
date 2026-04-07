@@ -139,4 +139,31 @@ ul {
     padding: 8px 16px !important;
     font-size: 0.85rem !important;
   }
+
+  .left .exp-icon,
+  .right .exp-icon {
+    left: -65px !important;
+    right: auto !important;
+    width: 40px !important;
+    height: 40px !important;
+    top: 25px !important;
+  }
+
+  .exp-type {
+    margin-left: 0 !important;
+  }
+
+  .exp-desc {
+    font-size: 1rem !important;
+    margin-bottom: 25px !important;
+  }
+
+  .exp-skills {
+    margin-top: 15px !important;
+  }
+
+  .skill-tag {
+    font-size: 0.8rem !important;
+    padding: 6px 12px !important;
+  }
 }
