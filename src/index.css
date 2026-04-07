@@ -71,6 +71,12 @@ ul {
   padding: 100px 5%;
 }
 
+@media (max-width: 768px) {
+  .section-padding {
+    padding: 60px 4%;
+  }
+}
+
 .container {
   max-width: 1200px;
   margin: 0 auto;
