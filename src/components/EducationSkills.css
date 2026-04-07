@@ -1,0 +1,147 @@
+.edu-skills-section {
+    background-color: var(--bg-primary);
+}
+
+.edu-skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.section-heading-small {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.section-heading-small h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+}
+
+.edu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.edu-card {
+    padding: 30px;
+    border-left: 4px solid var(--accent-gold);
+    border-radius: 0 16px 16px 0;
+    transition: transform 0.3s ease;
+}
+
+.edu-card:hover {
+    transform: translateX(10px);
+}
+
+.edu-year {
+    display: inline-block;
+    font-size: 0.9rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    background: rgba(206, 177, 102, 0.1);
+    padding: 4px 12px;
+    border-radius: 20px;
+}
+
+.edu-card h4 {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    line-height: 1.4;
+}
+
+.edu-card p {
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+    line-height: 1.6;
+}
+
+.edu-score {
+    margin-top: 15px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+.skills-block {
+    margin-bottom: 50px;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.skill-pill {
+    padding: 12px 24px;
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--glass-border);
+    border-radius: 30px;
+    font-size: 0.95rem;
+    font-weight: 500;
+    cursor: default;
+    transition: all 0.3s ease;
+}
+
+.lang-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.lang-item {
+    display: grid;
+    grid-template-columns: 100px 1fr 100px;
+    align-items: center;
+    gap: 20px;
+}
+
+.lang-name {
+    font-weight: 500;
+}
+
+.lang-bar-bg {
+    height: 8px;
+    background-color: var(--bg-tertiary);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.lang-bar-fill {
+    height: 100%;
+    background-color: var(--accent-gold);
+    border-radius: 4px;
+}
+
+.lang-level {
+    font-size: 0.85rem;
+    text-align: right;
+}
+
+.hobbies-text {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    line-height: 1.8;
+}
+
+@media (max-width: 992px) {
+    .edu-skills-grid {
+        grid-template-columns: 1fr;
+        gap: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    .lang-item {
+        grid-template-columns: 1fr;
+        gap: 8px;
+    }
+
+    .lang-level {
+        text-align: left;
+    }
+}
