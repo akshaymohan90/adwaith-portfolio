@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { User, Mail, Phone, MapPin } from 'lucide-react';
+import aboutImage from '../assets/images/about_male_concierge_1775572792820.png';
 import './About.css';
 
 export default function About() {
@@ -28,7 +29,7 @@ export default function About() {
                     viewport={{ once: true, margin: "-100px" }}
                     transition={{ duration: 0.8 }}
                 >
-                    <img src="/images/about_male_concierge_1775572792820.png" alt="Male Concierge Operations" className="about-image" />
+                    <img src={aboutImage} alt="Male Concierge Operations" className="about-image" />
                     <div className="experience-badge">
                         <span className="text-gold h2">5★</span>
                         <p>Passionate about<br />Service Excellence</p>

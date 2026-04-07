@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { ChevronDown } from 'lucide-react';
+import heroImage from '../assets/images/hero_group_executives_1775573008224.png';
 import './Hero.css';
 
 export default function Hero() {
@@ -8,7 +9,7 @@ export default function Hero() {
             <div className="hero-background">
                 <div className="hero-overlay"></div>
                 <img
-                    src="/images/hero_group_executives_1775573008224.png"
+                    src={heroImage}
                     alt="Front Office Executives"
                     className="hero-image"
                 />
