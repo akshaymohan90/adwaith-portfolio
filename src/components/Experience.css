@@ -127,12 +127,12 @@
 
 @media (max-width: 768px) {
     .experience-timeline::after {
-        left: 31px;
+        left: 25px;
     }
 
     .timeline-item {
         width: 100%;
-        padding-left: 80px;
+        padding-left: 70px;
         padding-right: 15px;
     }
 
@@ -142,6 +142,12 @@
 
     .left .exp-icon,
     .right .exp-icon {
-        left: 6px;
+        left: 5px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .exp-hotel {
+        font-size: 1.4rem;
     }
 }

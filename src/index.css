@@ -99,3 +99,44 @@ ul {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--accent-gold);
 }
+
+/* ROBUST MOBILE OVERLAP FIXES */
+@media (max-width: 768px) {
+  .hero-scroll {
+    display: none !important;
+  }
+
+  .hero-content {
+    padding-bottom: 20vh !important;
+  }
+
+  .nav-desktop {
+    display: none !important;
+  }
+
+  .nav-mobile-btn {
+    display: block !important;
+    z-index: 101;
+  }
+
+  .logo {
+    font-size: 1.4rem !important;
+  }
+
+  .logo-dot {
+    font-size: 1.6rem !important;
+  }
+
+  .section-heading-small h3 {
+    font-size: 1.6rem !important;
+  }
+
+  .edu-card {
+    padding: 20px !important;
+  }
+
+  .skill-pill {
+    padding: 8px 16px !important;
+    font-size: 0.85rem !important;
+  }
+}
